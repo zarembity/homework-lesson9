@@ -1,0 +1,6 @@
+
+- name: Ensure Apache package is present
+  apt: name=apache2 state=present
+
+- name: Ensure Apache package is present
+  yum: name=
